@@ -19,7 +19,7 @@ from rest_framework.routers import DefaultRouter
 from api.views import RoadtripViews
 
 router = DefaultRouter()
-router.register(r'roadtrip', RoadtripViews)
+router.register(r'Roadtrip', RoadtripViews)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
